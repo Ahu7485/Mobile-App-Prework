@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1468dd"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Alan"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/Text_color"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:text="White Text"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/Background_color"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="145dp"
+        android:background="@color/green"
+        android:layout_alignParentBottom="true"
+        android:text="Green Background"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/custom_text"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="Custom Text"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+</RelativeLayout>
